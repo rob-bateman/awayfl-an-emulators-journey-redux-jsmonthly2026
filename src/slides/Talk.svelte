@@ -250,15 +250,32 @@
     <h2>Languages</h2>
 </section>
 
-<section data-watermark="true" data-background="assets/talk_background.png">
+<section data-watermark="true" data-background="assets/talk_background.png" data-auto-animate>
+    <h3 style="margin: 0px 0px 250px 0px;">Interpreted vs Compiled</h3>
+    <div class="r-stack" style="margin: 0px 0px 20px 0px;">
+        <div class="r-hstack">
+            <h2 style="margin: 0px 20px 0px 60px;font-size: 40px !important;">bytecode</h2>
+            <h2 style="margin: 0px 20px 0px 20px;font-size: 40px !important;">→</h2>
+            <h2 style="margin: 0px 20px 0px 20px;font-size: 40px !important;">as2</h2>
+            <h2 style="margin: 0px 20px 0px 20px;font-size: 40px !important;">→</h2>
+            <h2 style="margin: 0px 20px 0px 20px;font-size: 40px !important;">interpreter</h2>
+        </div>
+    </div>
+     <div class="r-stretch">
+    </div>
+</section>
+
+<section data-watermark="true" data-background="assets/talk_background.png" data-auto-animate>
+    <h3>Interpreted vs Compiled</h3>
     <div class="r-stack" style="margin: 0px 0px 20px 0px;">
         <img src="assets/gandalf_vs_balrog_sd.jpg" alt="Gandalf vs Balrog" width="900" height="1000">
         <div class="r-vstack">
             <h1 style="margin: 0px 0px 80px 0px;color: #000;font-size: 340px !important;">as3</h1>
-            <h2 style="margin: 0px 0px 0px 0px;font-size: 30px !important;">as2</h2>
+            <h2 style="margin: 0px 0px 0px 0px;font-size: 40px !important;">as2</h2>
         </div>
     </div>
-    <h3 class="fragment">Interpreted vs Compiled</h3>
+    <div class="r-stretch">
+    </div>
 </section>
 
 <section data-watermark="true" data-background="assets/talk_background.png" data-auto-animate>
@@ -315,7 +332,7 @@
     <p class="fragment" style="margin:0px 0px 0px 0px;" data-autoslide="50">↓</p>
     <p class="fragment" style="margin:0px 0px 0px 0px;" data-autoslide="50">Actionscript Byte Code</p>
     <p class="fragment" style="margin:0px 0px 0px 0px;" data-autoslide="50">↓</p>
-    <p class="fragment" style="margin:0px 0px 0px 0px;" data-autoslide="50">Javascript</p>
+    <p class="fragment" style="margin:0px 0px 0px 0px;" data-autoslide="50">eval(Javascript)</p>
     <p class="fragment" style="margin:0px 0px 0px 0px;" data-autoslide="50">↓</p>
     <p class="fragment" style="margin:0px 0px 0px 0px;" data-autoslide="50">JIT</p>
     <p class="fragment" style="margin:0px 0px 0px 0px;" data-autoslide="50">↓</p>
@@ -326,7 +343,7 @@
 </section>
 
 <section data-watermark="true" data-background="assets/talk_background.png">
-    <h2>Bad Ice Cream</h2>
+    <h2>Bad Ice Cream (Nitrome)</h2>
     <div class="r-stack">
         <iframe data-src="assets/demos/assets/bad-ice-cream/index.html" width="550" height="550"></iframe>
     </div>
@@ -346,7 +363,7 @@
 </section>
 
 <section data-watermark="true" data-background="assets/talk_background.png">
-    <h2>Isolated Tests</h2>
+    <h2>End-to-end Tests</h2>
     <div class="r-vstack">
         <div class="r-hstack">
             <iframe data-src="assets/demos/assets/bugs/animationTest.html" width="350" height="250" style="padding: 10px;"></iframe>
